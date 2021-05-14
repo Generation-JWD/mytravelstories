@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 200;
 }
 
 header {
@@ -97,6 +98,68 @@ main {
   color: #b03376;
   padding: 2px;
   margin: 5px;
+}
+
+
+/* Contact page */
+
+.container {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  padding: 0.8rem;
+  background-color: rgba(218, 210, 210, 0.55);
+  border-radius: 5px;
+}
+fieldset{
+  border: none;
+}
+
+label {
+  font-size: 1.5em;
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+legend {
+  display: none;
+}
+
+.forms-elements {
+  display:block;
+  font-size: 0.55em;
+  padding: 0.5rem; 
+  border: none;
+  width:100%;
+  margin: 0.7rem 0;
+}
+
+#website,
+ #facebook {
+   margin: 0.35rem;
+ }
+
+textarea {
+  width: 100%;
+}
+
+p {
+  padding-top: 1rem;
+}
+
+.submit {
+  width: 100%;
+  text-align: center
+}
+
+input[type="submit"] {
+  display; block;
+  width: 10%;
+  border-radius: 5px;
+  padding: 0.45rem;
+  color: white;
+  background-color: rgb(36, 182, 36);
+  border: none;
 }
 
 /* Footer */
