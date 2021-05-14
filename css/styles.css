@@ -1,3 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+header > img {
+  height: 500px;
+  width: 100%;
+}
+
+nav {
+  background-color: rgb(206, 85, 85);
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 0 16px;
+}
+
+nav a:hover{
+  background-color: #77bdbf;
+  color: #292525;
+}
+
+h1 {
+  font-size: 3em;
+  color: hsl(0, 2%, 32%);
+  padding: 10px;
+}
+
+blockquote {
+  font-size: 1.5em;
+  color: hsla(315, 28%, 23%, 0.5);
+  padding: 10px;
+}
+
+main {
+  text-align: justify;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.homecontent {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.listPlaces {
+  margin: 1.4rem 0;
+}
+.listPlaces li {
+  list-style-position: inside;
+}
+
+
+/* Story page */
+/* Using display layout */
+
+.stories {
+  width: 940px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.stories .col {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+
+.stories > article {
+  max-width: 300px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.col > img {
+  width: 100%;
+  opacity: 85%;
+}
+
+.col p,
+.col h3 {
+  color: #b03376;
+  padding: 2px;
+  margin: 5px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  margin: 15px 0;
+}
+
 table {
   border-collapse: collapse;
 }
